@@ -1,0 +1,4 @@
+Revision history for Perl extension Plack::Middleware::Parallel::Scoreboard
+
+0.01    Wed Jul 14 20:06:06 2010
+        - original version
