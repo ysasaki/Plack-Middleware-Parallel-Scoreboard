@@ -8,3 +8,5 @@ __DATA__
 aloelight
 aloelight {at} gmail.com
 Plack::Middleware::Parallel::Scoreboard
+Yoshihiro
+Sasaki
