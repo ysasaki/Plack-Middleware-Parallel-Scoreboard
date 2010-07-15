@@ -4,7 +4,8 @@ use warnings;
 use parent qw(Plack::Middleware);
 use Plack::Util::Accessor qw(board base_dir path);
 use Parallel::Scoreboard;
-our $VERSION = '0.01';
+
+our $VERSION = '0.02';
 
 sub prepare_app {
     my $self = shift;
@@ -31,7 +32,7 @@ sub call {
         $res = $self->app->($env);
     }
 
-    $self->set_state("_");
+    $self->set_state("_", $env);
 
     return $res;
 }

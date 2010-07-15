@@ -1,4 +1,7 @@
 Revision history for Perl extension Plack::Middleware::Parallel::Scoreboard
 
+0.02    Thu Jul 15 16:46:00 2010
+        - show last request information if workers are waiting for connection.
+
 0.01    Wed Jul 14 20:06:06 2010
         - original version
