@@ -1,0 +1,73 @@
+{
+   "abstract" : "how server status like Apache's mod_status",
+   "author" : [
+      "Yoshihiro Sasaki <aloelight {at} gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v0.5.3, CPAN::Meta::Converter version 2.131560",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Plack-Middleware-Parallel-Scoreboard",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "CPAN::Meta" : "0",
+            "CPAN::Meta::Prereqs" : "0",
+            "Module::Build" : "0.38"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion" : "0.10108",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Parallel::Scoreboard" : "0.02",
+            "Plack" : "0",
+            "parent" : "0"
+         }
+      }
+   },
+   "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/ysasaki/Plack-Middleware-Parallel-Scoreboard/issues"
+      },
+      "homepage" : "https://github.com/ysasaki/Plack-Middleware-Parallel-Scoreboard",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/ysasaki/Plack-Middleware-Parallel-Scoreboard.git",
+         "web" : "https://github.com/ysasaki/Plack-Middleware-Parallel-Scoreboard"
+      }
+   },
+   "version" : "0.02",
+   "x_contributors" : [
+      "Yoshihiro Sasaki <aloelight@gmail.com>",
+      "ysasaki <ysasaki@idac.co.jp>"
+   ]
+}

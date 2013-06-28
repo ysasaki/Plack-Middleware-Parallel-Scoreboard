@@ -1,5 +1,8 @@
 Revision history for Perl extension Plack::Middleware::Parallel::Scoreboard
 
+{{$NEXT}}
+    - use minil instead of Module::Install.
+
 0.02    Thu Jul 15 16:46:00 2010
         - show last request information if workers are waiting for connection.
 
